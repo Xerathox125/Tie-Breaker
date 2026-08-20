@@ -1,0 +1,533 @@
+fileFormatVersion: 2
+guid: 2cbfc086124dcd941a09f00ad6b38ea1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5522396813192808109
+    second: UI RollBall2_0
+  - first:
+      213: -2952224016563650519
+    second: UI RollBall2_1
+  - first:
+      213: 5965567519922850821
+    second: UI RollBall2_2
+  - first:
+      213: -6569297131896339924
+    second: UI RollBall2_3
+  - first:
+      213: 4375358084170996846
+    second: UI RollBall2_4
+  - first:
+      213: -1181986172221718097
+    second: UI RollBall2_5
+  - first:
+      213: -482091398133116053
+    second: UI RollBall2_6
+  - first:
+      213: -8443754591615941614
+    second: UI RollBall2_7
+  - first:
+      213: 5695772408775964311
+    second: UI RollBall2_8
+  - first:
+      213: 2421304693556680039
+    second: UI RollBall2_9
+  - first:
+      213: -3000253881988082372
+    second: UI RollBall2_10
+  - first:
+      213: 5581790431840969850
+    second: UI RollBall2_11
+  - first:
+      213: -7967250931531833517
+    second: UI RollBall2_12
+  - first:
+      213: -3042497937557266492
+    second: UI RollBall2_13
+  - first:
+      213: 8817460720691265659
+    second: UI RollBall2_14
+  - first:
+      213: -5037659634500521902
+    second: UI RollBall2_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UI RollBall2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 638
+        width: 419
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da64b1784ae73ac40800000000000000
+      internalID: 5522396813192808109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI RollBall2_1
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 534
+        width: 408
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 920c85306e79707d0800000000000000
+      internalID: -2952224016563650519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI RollBall2_2
+      rect:
+        serializedVersion: 2
+        x: 917
+        y: 655
+        width: 224
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c0c9c6d04f9c250800000000000000
+      internalID: 5965567519922850821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI RollBall2_3
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 624
+        width: 135
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22835d601b25d4a0800000000000000
+      internalID: -6569297131896339924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI RollBall2_4
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 533
+        width: 302
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c5524fef468bc30800000000000000
+      internalID: 4375358084170996846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI RollBall2_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 243
+        width: 147
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa10d4bb6ddb89fe0800000000000000
+      internalID: -1181986172221718097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI RollBall2_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 243
+        width: 148
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6311097d644f49f0800000000000000
+      internalID: -482091398133116053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI RollBall2_7
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 243
+        width: 148
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21488249fe1c1da80800000000000000
+      internalID: -8443754591615941614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI RollBall2_8
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 243
+        width: 148
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796ff8a04d27b0f40800000000000000
+      internalID: 5695772408775964311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI RollBall2_9
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 243
+        width: 147
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7659e684ac33a9120800000000000000
+      internalID: 2421304693556680039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI RollBall2_10
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 243
+        width: 148
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c351d188df4fc56d0800000000000000
+      internalID: -3000253881988082372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI RollBall2_11
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 243
+        width: 146
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a742e8cf2d0867d40800000000000000
+      internalID: 5581790431840969850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI RollBall2_12
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 243
+        width: 148
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f15a57d73ae6190800000000000000
+      internalID: -7967250931531833517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI RollBall2_13
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 94
+        width: 302
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cf5a02ee30e6c5d0800000000000000
+      internalID: -3042497937557266492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI RollBall2_14
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 89
+        width: 302
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7043cdfec9ed5a70800000000000000
+      internalID: 8817460720691265659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UI RollBall2_15
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 42
+        width: 406
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250b54ac043a61ab0800000000000000
+      internalID: -5037659634500521902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      UI RollBall2_0: 5522396813192808109
+      UI RollBall2_1: -2952224016563650519
+      UI RollBall2_10: -3000253881988082372
+      UI RollBall2_11: 5581790431840969850
+      UI RollBall2_12: -7967250931531833517
+      UI RollBall2_13: -3042497937557266492
+      UI RollBall2_14: 8817460720691265659
+      UI RollBall2_15: -5037659634500521902
+      UI RollBall2_2: 5965567519922850821
+      UI RollBall2_3: -6569297131896339924
+      UI RollBall2_4: 4375358084170996846
+      UI RollBall2_5: -1181986172221718097
+      UI RollBall2_6: -482091398133116053
+      UI RollBall2_7: -8443754591615941614
+      UI RollBall2_8: 5695772408775964311
+      UI RollBall2_9: 2421304693556680039
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
