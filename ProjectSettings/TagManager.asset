@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Stairs
+  - Water
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Ground
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 46321279
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Vegetation
+    uniqueID: 964715543
+    locked: 0
+  - name: Bushes
+    uniqueID: 1030536785
+    locked: 0
+  - name: Stones
+    uniqueID: 818988265
+    locked: 0
+  - name: Town
+    uniqueID: 2632945565
+    locked: 0
+  - name: Tilemap
+    uniqueID: 1969951713
+    locked: 0
+  - name: Crystals
+    uniqueID: 3630442015
+    locked: 0
+  - name: Player
+    uniqueID: 2455448165
+    locked: 0
+  - name: NPC's
+    uniqueID: 1974028223
+    locked: 0
+  - name: Foreground
+    uniqueID: 1744933203
+    locked: 0
+  m_RenderingLayers:
+  - Default
