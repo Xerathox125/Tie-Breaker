@@ -72,6 +72,8 @@ public class LevelTransition : MonoBehaviour
 
     private void LoadNextScene()
     {
+        ScenesManager.MarkLevelCompleted(gameObject.scene.name); // Marcar el nivel actual como completado
+
         if (scenesManager != null)
         {
             // Usar el SceneManager personalizado
