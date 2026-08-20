@@ -21029,7 +21029,7 @@ GameObject:
   - component: {fileID: 205515079}
   - component: {fileID: 205515078}
   m_Layer: 0
-  m_Name: mine
+  m_Name: exit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -21121,10 +21121,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 107b8855b7ec2d94889839f5d914e3c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LevelTransition
-  nextSceneName: MainMenu
+  nextSceneName: LevelSelection
   playerTag: Player
   requireSpecificObject: 0
-  requiredObjectName: mine
+  requiredObjectName: exit
   scenesManager: {fileID: 1550322085}
   useTrigger: 1
 --- !u!61 &205515079

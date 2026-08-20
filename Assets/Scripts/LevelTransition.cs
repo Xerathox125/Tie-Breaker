@@ -4,10 +4,10 @@ using UnityEngine.SceneManagement;
 public class LevelTransition : MonoBehaviour
 {
     [Header("Configuración de Transición")]
-    [SerializeField] private string nextSceneName = "Level2"; // Nombre de la siguiente escena
+    [SerializeField] private string nextSceneName = "LevelSelection"; // Nombre de la siguiente escena
     [SerializeField] private string playerTag = "Player";     // Tag del jugador
     [SerializeField] private bool requireSpecificObject = false; // Si true, busca un objeto específico
-    [SerializeField] private string requiredObjectName = "mine"; // Nombre del objeto requerido (ej: "mine")
+    [SerializeField] private string requiredObjectName = "exit"; // Nombre del objeto requerido (ej: "exit")
 
     [Header("Referencias")]
     [SerializeField] private ScenesManager scenesManager; // Referencia al SceneManager
@@ -49,7 +49,7 @@ public class LevelTransition : MonoBehaviour
 
         if (requireSpecificObject)
         {
-            // Verificar si es el objeto específico (ej: "mine")
+            // Verificar si es el objeto específico (ej: "exit")
             if (other.name == requiredObjectName || other.CompareTag(requiredObjectName))
             {
                 canTransition = true;
@@ -76,6 +76,7 @@ public class LevelTransition : MonoBehaviour
 
         if (scenesManager != null)
         {
+            Debug.Log("Trigger entered.");
             // Usar el SceneManager personalizado
             scenesManager.LevelSelection();
         }
@@ -103,4 +104,5 @@ public class LevelTransition : MonoBehaviour
             }
         }
     }
+      
 }
