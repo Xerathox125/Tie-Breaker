@@ -75,7 +75,7 @@ public class LevelTransition : MonoBehaviour
         if (scenesManager != null)
         {
             // Usar el SceneManager personalizado
-            scenesManager.LoadLevel2();
+            scenesManager.LevelSelection();
         }
         else
         {
