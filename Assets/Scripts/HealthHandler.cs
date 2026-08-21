@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HealthHandler : MonoBehaviour
 {
@@ -23,10 +24,11 @@ public class HealthHandler : MonoBehaviour
         {
             Time.timeScale = 1;
         }
-        //Activamos partículas
-        //generamos sonido
 
-        Destroy(gameObject);
+        string currentSceneName = SceneManager.GetActiveScene().name;
+        SceneManager.LoadScene(currentSceneName);      
+
+        //Destroy(gameObject);
     }
    
 }

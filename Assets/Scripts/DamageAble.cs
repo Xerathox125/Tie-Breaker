@@ -132,10 +132,26 @@ public class Damageable : MonoBehaviour
 
     }
 
+    //activa invulnerabilidad cuando es dañado
     IEnumerator InvulnerabilityEffect()
     {
         isInvulnerable = true;
         yield return new WaitForSeconds(timeInvulnerability);
         isInvulnerable = false;
     }
+
+    // Método público para activar la invulnerabilidad por un tiempo personalizado
+    public void TriggerInvulnerability(float duration)
+    {
+        StartCoroutine(CustomInvulnerabilityRoutine(duration));
+    }
+
+    private IEnumerator CustomInvulnerabilityRoutine(float duration)
+    {
+        isInvulnerable = true;
+        yield return new WaitForSeconds(duration);
+        isInvulnerable = false;
+    }
+
+
 }

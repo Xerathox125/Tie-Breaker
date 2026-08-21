@@ -14,13 +14,18 @@ public class PlayerDash : MonoBehaviour
 
     private Vector2 dashDirection;             // Dirección en la que se aplicará el dash
     private PlayerController playerController; // Referencia al controlador
+    private Damageable damageable;             // Referencia al componente Damageable
+    [SerializeField] private LayerMask enemyLayer; // Asigna aquí la capa de los enemigos
+    private int playerLayer;
 
     //Getters y setters
     public bool hasAirDashed { get; set; }
 
     private void Start() // Cachea controlador
     { 
-        playerController = GetComponent<PlayerController>(); 
+        playerController = GetComponent<PlayerController>();
+        damageable = GetComponent<Damageable>();
+        playerLayer = gameObject.layer; // Guarda la capa del jugador
     }
 
     public void OnUpdate() // Actualiza contadores y resets
@@ -52,15 +57,28 @@ public class PlayerDash : MonoBehaviour
         
         Vector2 move = playerController.moveInput; // Lee input actual
 
-        // Operador ternario corregido
-        dashDirection = move.magnitude > 0.1f ? move.normalized : new Vector2(Mathf.Sign(transform.localScale.x), 0f);
+        // dash horizontal
+        float horizontalInput = Mathf.Abs(move.x) > 0.1f ? Mathf.Sign(move.x) : Mathf.Sign(transform.localScale.x);
+        dashDirection = new Vector2(horizontalInput, 0f);
+
+        //dash omnidireccional
+        //dashDirection = move.magnitude > 0.1f ? move.normalized : new Vector2(Mathf.Sign(transform.localScale.x), 0f);
+
 
         // Lógica de consumo de token
         if (playerController.jump.IsGrounded) timerCoolDownDash = coolDownDash;
         else hasAirDashed = true; // Aquí se marca como usado
-        
+
         // Si dash es vertical, también consume token
-        if (dashDirection.y > 0.1f) hasAirDashed = true;
+        //if (dashDirection.y > 0.1f) hasAirDashed = true;
+
+        // Se activa invulnerabilidad durante el dash
+        if (damageable != null)
+        {
+            damageable.TriggerInvulnerability(dashDuration);
+        }
+        int enemyLayerIndex = Mathf.RoundToInt(Mathf.Log(enemyLayer.value, 2));
+        Physics2D.IgnoreLayerCollision(playerLayer, enemyLayerIndex, true);
     }
 
     void DashUpdate() // Aplica movimiento constante mientras dura el dash
@@ -76,5 +94,7 @@ public class PlayerDash : MonoBehaviour
         isDash = false; // Desactiva estado
         playerController.rb.gravityScale = playerController.normalGravity; // Restaura gravedad
         playerController.rb.linearVelocity = Vector2.zero; // Detiene movimiento residual
+        int enemyLayerIndex = Mathf.RoundToInt(Mathf.Log(enemyLayer.value, 2));
+        Physics2D.IgnoreLayerCollision(playerLayer, enemyLayerIndex, false);
     }
 }

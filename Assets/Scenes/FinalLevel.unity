@@ -424696,6 +424696,9 @@ MonoBehaviour:
   isDash: 0
   timerDashDuration: 0.3
   timerCoolDownDash: 0
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 256
 --- !u!114 &550543013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -540903,6 +540906,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1486892555d19f74c9d75ff0d3b84efa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScenesManager
+  totalLevelsToComplete: 2
+  finalLevelButton: {fileID: 0}
 --- !u!4 &1428686342
 Transform:
   m_ObjectHideFlags: 0
