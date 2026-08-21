@@ -6,11 +6,19 @@ using UnityEngine.SceneManagement;
 public class ScenesManager : MonoBehaviour
 {
     private static HashSet<string> completedLevels = new HashSet<string>();
+    private static int pendingCinematics = 0;
+    private static bool hasShownContext = false;
 
     [SerializeField] private int totalLevelsToComplete = 2;
 
     [Header("Referencias del Botón Final")]
-    [SerializeField] private Button finalLevelButton; // Arrastra el botón aquí desde Unity
+    [SerializeField] private Button finalLevelButton;
+
+    [Header("Panel de Contexto Inicial")]
+    [SerializeField] private GameObject contextPanel;
+
+    [Header("Paneles de Lore (Ordenados)")]
+    [SerializeField] private List<GameObject> lorePanelsList;
 
     private void OnEnable()
     {
@@ -23,17 +31,18 @@ public class ScenesManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
+        Debug.Log("--- ESCENA CARGADA: " + scene.name + " ---");
+
         if (scene.name == "LevelSelection")
         {
             UpdateLevelButtons();
+            ManageInitialContext();
         }
     }
 
     private void UpdateLevelButtons()
     {
-        Debug.Log("Niveles completados en memoria actualmente: " + completedLevels.Count);
-
-        // 1. Recorremos los niveles y desactivamos los que ya estén en la lista
+        Debug.Log("Actualizando botones. Niveles completados en memoria: " + completedLevels.Count);
         foreach (string levelName in completedLevels)
         {
             string buttonName = "btnLvl" + levelName.Replace("Level", "");
@@ -41,19 +50,32 @@ public class ScenesManager : MonoBehaviour
             if (btnObj != null)
             {
                 btnObj.GetComponent<Button>().interactable = false;
+                Debug.Log("Botón desactivado: " + buttonName);
             }
         }
 
-        // 2. Lógica para el botón final usando la referencia directa del Inspector
         if (finalLevelButton != null)
         {
             bool shouldUnlock = (completedLevels.Count >= totalLevelsToComplete);
             finalLevelButton.interactable = shouldUnlock;
-            Debug.Log("Botón final actualizado. ¿Debería estar activado? " + shouldUnlock);
+            Debug.Log("Botón final interactuable: " + shouldUnlock);
+        }
+    }
+
+    private void ManageInitialContext()
+    {
+        Debug.Log("Gestionando contexto inicial. hasShownContext = " + hasShownContext);
+
+        if (!hasShownContext && contextPanel != null)
+        {
+            Debug.Log("Mostrando panel de Contexto Inicial por primera vez.");
+            contextPanel.SetActive(true);
+            hasShownContext = true;
         }
         else
         {
-            Debug.LogError("¡Falta asignar el botón final en el inspector del ScenesManager!");
+            if (contextPanel != null) contextPanel.SetActive(false);
+            CheckAndShowCinematic();
         }
     }
 
@@ -62,47 +84,98 @@ public class ScenesManager : MonoBehaviour
         if (!completedLevels.Contains(levelName))
         {
             completedLevels.Add(levelName);
+            pendingCinematics++;
+            Debug.Log(">>> NIVEL COMPLETADO: " + levelName + " | Total completados: " + completedLevels.Count + " | Cinemáticas pendientes: " + pendingCinematics);
+        }
+        else
+        {
+            Debug.Log(">>> El nivel " + levelName + " ya estaba registrado como completado.");
         }
     }
 
-    public void CloseApp()
+    private void CheckAndShowCinematic()
     {
-        Application.Quit();
-        Debug.Log("Application closed.");
+        Debug.Log("Comprobando cinemáticas. Pendientes: " + pendingCinematics);
+
+        if (lorePanelsList == null || lorePanelsList.Count == 0)
+        {
+            Debug.LogWarning("¡La lista de paneles de lore está vacía o no asignada!");
+            return;
+        }
+
+        if (pendingCinematics > 0)
+        {
+            // CORRECCIÓN: El índice correcto se basa en el total de niveles completados menos 1
+            int currentLoreIndex = completedLevels.Count - 1;
+            Debug.Log("Cálculo corregido de índice de Lore -> Total completados menos 1 = Índice: " + currentLoreIndex);
+
+            if (currentLoreIndex >= 0 && currentLoreIndex < lorePanelsList.Count)
+            {
+                foreach (GameObject panel in lorePanelsList)
+                {
+                    if (panel != null) panel.SetActive(false);
+                }
+
+                GameObject activePanel = lorePanelsList[currentLoreIndex];
+                if (activePanel != null)
+                {
+                    activePanel.SetActive(true);
+                    Debug.Log("¡Panel de Lore activado con éxito! Nombre: " + activePanel.name);
+                }
+                else
+                {
+                    Debug.LogError("El panel de lore en el índice " + currentLoreIndex + " es NULL.");
+                }
+            }
+            else
+            {
+                Debug.LogError("El índice calculado (" + currentLoreIndex + ") está fuera del rango de la lista de paneles (Tamaño: " + lorePanelsList.Count + ").");
+            }
+        }
+        else
+        {
+            Debug.Log("No hay cinemáticas pendientes. Apagando todos los paneles de lore.");
+            foreach (GameObject panel in lorePanelsList)
+            {
+                if (panel != null) panel.SetActive(false);
+            }
+        }
     }
 
-    public void ResumeGame()
+    public void CloseContextPanel()
     {
-        Time.timeScale = 1;
-    }
-    public void PauseGame()
-    {
-        Time.timeScale = 0;
-    }
-
-    public void MainMenu()
-    {
-        SceneManager.LoadScene("MainMenu");
-        Time.timeScale = 1;
-    }
-    public void LevelSelection()
-    {
-        SceneManager.LoadScene("LevelSelection");
-        Time.timeScale = 1;
+        Debug.Log("Cerrando panel de Contexto Inicial.");
+        if (contextPanel != null)
+        {
+            contextPanel.SetActive(false);
+        }
+        CheckAndShowCinematic();
     }
 
-    public void LoadLevel1()
+    public void CloseCinematicPanel()
     {
-        SceneManager.LoadScene("Level1");
+        Debug.Log("Cerrando panel de cinemática actual. Pendientes antes de restar: " + pendingCinematics);
+        if (pendingCinematics > 0)
+        {
+            pendingCinematics--;
+        }
+        Debug.Log("Pendientes después de restar: " + pendingCinematics);
+
+        foreach (GameObject panel in lorePanelsList)
+        {
+            if (panel != null) panel.SetActive(false);
+        }
+
+        CheckAndShowCinematic();
     }
 
-    public void LoadLevel2()
-    {
-        SceneManager.LoadScene("Level2");
-    }
-
-    public void FinalLevel()
-    {
-        SceneManager.LoadScene("FinalLevel");
-    }
+    // Métodos de navegación de escenas
+    public void CloseApp() { Application.Quit(); }
+    public void ResumeGame() { }
+    public void PauseGame() { Time.timeScale = 0; }
+    public void MainMenu() { SceneManager.LoadScene("MainMenu"); }
+    public void LevelSelection() { SceneManager.LoadScene("LevelSelection"); }
+    public void LoadLevel1() { SceneManager.LoadScene("Level1"); }
+    public void LoadLevel2() { SceneManager.LoadScene("Level2"); }
+    public void FinalLevel() { SceneManager.LoadScene("FinalLevel"); }
 }
