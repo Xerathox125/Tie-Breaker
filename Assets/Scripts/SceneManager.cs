@@ -1,13 +1,16 @@
 using System.Collections.Generic;
-using UnityEditorInternal;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-
 public class ScenesManager : MonoBehaviour
 {
     private static HashSet<string> completedLevels = new HashSet<string>();
+
+    [SerializeField] private int totalLevelsToComplete = 2;
+
+    [Header("Referencias del Botón Final")]
+    [SerializeField] private Button finalLevelButton; // Arrastra el botón aquí desde Unity
 
     private void OnEnable()
     {
@@ -28,24 +31,32 @@ public class ScenesManager : MonoBehaviour
 
     private void UpdateLevelButtons()
     {
-        // Recorremos los niveles y desactivamos los que ya estén en la lista de la sesión actual
+        Debug.Log("Niveles completados en memoria actualmente: " + completedLevels.Count);
+
+        // 1. Recorremos los niveles y desactivamos los que ya estén en la lista
         foreach (string levelName in completedLevels)
         {
             string buttonName = "btnLvl" + levelName.Replace("Level", "");
             GameObject btnObj = GameObject.Find(buttonName);
-
             if (btnObj != null)
             {
-                Button btn = btnObj.GetComponent<Button>();
-                if (btn != null)
-                {
-                    btn.interactable = false;
-                }
+                btnObj.GetComponent<Button>().interactable = false;
             }
+        }
+
+        // 2. Lógica para el botón final usando la referencia directa del Inspector
+        if (finalLevelButton != null)
+        {
+            bool shouldUnlock = (completedLevels.Count >= totalLevelsToComplete);
+            finalLevelButton.interactable = shouldUnlock;
+            Debug.Log("Botón final actualizado. ¿Debería estar activado? " + shouldUnlock);
+        }
+        else
+        {
+            Debug.LogError("¡Falta asignar el botón final en el inspector del ScenesManager!");
         }
     }
 
-    // Método para registrar el nivel completado solo en memoria
     public static void MarkLevelCompleted(string levelName)
     {
         if (!completedLevels.Contains(levelName))
@@ -88,5 +99,10 @@ public class ScenesManager : MonoBehaviour
     public void LoadLevel2()
     {
         SceneManager.LoadScene("Level2");
-    }    
+    }
+
+    public void FinalLevel()
+    {
+        SceneManager.LoadScene("FinalLevel");
+    }
 }
