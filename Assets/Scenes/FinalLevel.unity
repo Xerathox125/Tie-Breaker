@@ -585828,12 +585828,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthUI
   healthBarImage: {fileID: 3300509826370229586}
   healthSprites:
-  - {fileID: -6937122563872544080, guid: f2aef8296af244e4cbf4c6f0e698b727, type: 3}
-  - {fileID: -9164235723650724262, guid: f2aef8296af244e4cbf4c6f0e698b727, type: 3}
-  - {fileID: -8897510127817460088, guid: f2aef8296af244e4cbf4c6f0e698b727, type: 3}
-  - {fileID: 1099695529560568909, guid: f2aef8296af244e4cbf4c6f0e698b727, type: 3}
   - {fileID: -1685184327607135103, guid: f2aef8296af244e4cbf4c6f0e698b727, type: 3}
   - {fileID: -2215745572680000228, guid: f2aef8296af244e4cbf4c6f0e698b727, type: 3}
+  - {fileID: -8897510127817460088, guid: f2aef8296af244e4cbf4c6f0e698b727, type: 3}
+  - {fileID: 1099695529560568909, guid: f2aef8296af244e4cbf4c6f0e698b727, type: 3}
+  - {fileID: -6937122563872544080, guid: f2aef8296af244e4cbf4c6f0e698b727, type: 3}
+  - {fileID: -9164235723650724262, guid: f2aef8296af244e4cbf4c6f0e698b727, type: 3}
 --- !u!224 &5267965635646630073
 RectTransform:
   m_ObjectHideFlags: 0

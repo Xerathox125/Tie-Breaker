@@ -7,10 +7,18 @@ public class HealthHandler : MonoBehaviour
     [SerializeField] private int currentHealth;
 
     private HealthUI healthUI; // Referencia al script de la UI
+    private bool isPlayer;
 
     private void Awake()
     {
         currentHealth = maxHealth;
+        isPlayer  = gameObject.CompareTag("Player");
+
+        if(isPlayer)
+        {
+            // Buscamos automáticamente el componente de UI en la escena
+            healthUI = FindFirstObjectByType<HealthUI>();
+        }
 
         // Buscamos automáticamente el componente de UI en la escena
         healthUI = FindFirstObjectByType<HealthUI>();
@@ -19,7 +27,7 @@ public class HealthHandler : MonoBehaviour
     private void Start()
     {
         // Actualizamos la barra al iniciar la escena para que refleje la vida máxima
-        if (healthUI != null)
+        if (isPlayer && healthUI != null)
         {
             healthUI.UpdateHealthBar(currentHealth);
         }
@@ -30,7 +38,7 @@ public class HealthHandler : MonoBehaviour
         currentHealth -= damage;
 
         // Actualizamos la barra de vida cada vez que recibe daño
-        if (healthUI != null)
+        if (isPlayer && healthUI != null)
         {
             healthUI.UpdateHealthBar(currentHealth);
         }
@@ -41,6 +49,12 @@ public class HealthHandler : MonoBehaviour
 
     private void Die()
     {
+        if(!isPlayer)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
         if (Time.timeScale == 0)
         {
             Time.timeScale = 1;
