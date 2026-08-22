@@ -31,8 +31,6 @@ public class ScenesManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        Debug.Log("--- ESCENA CARGADA: " + scene.name + " ---");
-
         if (scene.name == "LevelSelection")
         {
             UpdateLevelButtons();
