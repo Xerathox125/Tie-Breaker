@@ -4,17 +4,25 @@ public class HealthHandler : MonoBehaviour
 {
     public int maxHealth;
     [SerializeField] private int currentHealth;
+    private Animator animator;
 
     private void Awake()
     {
         currentHealth = maxHealth;
+        animator = GetComponentInChildren<Animator>();
     }
 
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        if (currentHealth <= 0)
+        if (currentHealth > 0)
+        {
+            if (animator != null) animator.SetTrigger("Hit");
+        }
+        else
+        {
             Die();
+        }
     }
 
     private void Die()
