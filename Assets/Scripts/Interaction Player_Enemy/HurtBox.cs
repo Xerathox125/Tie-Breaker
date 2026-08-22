@@ -28,7 +28,8 @@ public class HurtBox : MonoBehaviour
 
     private void CheckHurtBox()
     {
-        Vector2 center = (Vector2)transform.position + hurtBoxOffSet;
+        // Cambiamos transform.position por transform.parent.position para que lea al padre (Bee Enemy)
+        Vector2 center = (Vector2)transform.parent.position + hurtBoxOffSet;
         Collider2D[] hits = Physics2D.OverlapBoxAll(center, hurtBoxSize, 0f, targetLayer);
 
         foreach (Collider2D hit in hits)
@@ -44,8 +45,6 @@ public class HurtBox : MonoBehaviour
                 damage.ApplyDamage(damageEnemy, contactPoint, knockBackForce);
             }
 
-            // El knockback del jugador se maneja desde el propio PlayerMovement
-            // para que la corrutina no dependa de que el enemigo siga vivo
             PlayerMovement playerMovement = hit.GetComponent<PlayerMovement>();
             if (playerMovement != null)
             {
