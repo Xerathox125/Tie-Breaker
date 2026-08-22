@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class HealthHandler : MonoBehaviour
 {
-    public int maxHealth;
+    public int maxHealth = 5; // Asignamos 5 por defecto para evitar que inicie en 0
     [SerializeField] private int currentHealth;
 
     private HealthUI healthUI; // Referencia al script de la UI
