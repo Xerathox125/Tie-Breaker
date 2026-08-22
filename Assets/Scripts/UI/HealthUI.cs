@@ -12,7 +12,7 @@ public class HealthUI : MonoBehaviour
         if (healthBarImage == null || healthSprites == null || healthSprites.Length == 0) return;
 
         // Escudo de seguridad para ignorar números absurdos
-        if (currentHealth > healthSprites.Length - 1) return;
+       // if (currentHealth > healthSprites.Length - 1) return;
 
         int index = Mathf.Clamp(currentHealth, 0, healthSprites.Length - 1);
         healthBarImage.sprite = healthSprites[index];
