@@ -31,8 +31,6 @@ public class ScenesManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        Debug.Log("--- ESCENA CARGADA: " + scene.name + " ---");
-
         if (scene.name == "LevelSelection")
         {
             UpdateLevelButtons();
@@ -167,6 +165,27 @@ public class ScenesManager : MonoBehaviour
         }
 
         CheckAndShowCinematic();
+    }
+
+    // Añade este método estático dentro de tu ScenesManager.cs existente:
+
+    public static string GetCurrentPlayerSkin()
+    {
+        int completedCount = completedLevels.Count;
+
+        // Si ya completó 2 niveles, le toca el skin del 3er nivel
+        if (completedCount >= 2)
+        {
+            return "Skin3";
+        }
+        // Si ya completó 1 nivel, le toca el skin del 2do nivel
+        else if (completedCount == 1)
+        {
+            return "Skin2";
+        }
+
+        // Por defecto para el inicio (primer nivel que juegue)
+        return "Skin1";
     }
 
     // Métodos de navegación de escenas

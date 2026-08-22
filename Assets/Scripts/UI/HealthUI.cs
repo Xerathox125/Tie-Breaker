@@ -1,21 +1,20 @@
 using UnityEngine;
-using UnityEngine.UI; // Necesario para trabajar con UI
+using UnityEngine.UI;
 
 public class HealthUI : MonoBehaviour
 {
     [Header("Referencias")]
-    [SerializeField] private Image healthBarImage; // Componente Image de la UI donde se muestra la barra
-    [SerializeField] private Sprite[] healthSprites; // Arreglo con tus sprites cortados (HPBar_0, HPBar_1, etc.)
+    [SerializeField] private Image healthBarImage;
+    [SerializeField] private Sprite[] healthSprites;
 
-    // Método para actualizar el sprite según la salud actual
     public void UpdateHealthBar(int currentHealth)
     {
         if (healthBarImage == null || healthSprites == null || healthSprites.Length == 0) return;
 
-        // Asegurarnos de que el índice esté dentro de los límites del arreglo
-        int index = Mathf.Clamp(currentHealth, 0, healthSprites.Length - 1);
+        // Escudo de seguridad para ignorar números absurdos
+        if (currentHealth > healthSprites.Length - 1) return;
 
-        // Cambiamos el sprite de la UI
+        int index = Mathf.Clamp(currentHealth, 0, healthSprites.Length - 1);
         healthBarImage.sprite = healthSprites[index];
     }
 }

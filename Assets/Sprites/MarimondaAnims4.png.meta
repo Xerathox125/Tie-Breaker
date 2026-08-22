@@ -1,0 +1,1261 @@
+fileFormatVersion: 2
+guid: 1c717100600d3a048bf3995101b08330
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5700166535865447136
+    second: MarimondaAnims4_0
+  - first:
+      213: -3920264771346080717
+    second: MarimondaAnims4_1
+  - first:
+      213: 6990811868628245933
+    second: MarimondaAnims4_2
+  - first:
+      213: -3649568157375149912
+    second: MarimondaAnims4_3
+  - first:
+      213: 7535734963790746964
+    second: MarimondaAnims4_4
+  - first:
+      213: -4453715357696097912
+    second: MarimondaAnims4_5
+  - first:
+      213: -3716882678967294545
+    second: MarimondaAnims4_6
+  - first:
+      213: 3691007924057678653
+    second: MarimondaAnims4_7
+  - first:
+      213: 5029285561830705334
+    second: MarimondaAnims4_8
+  - first:
+      213: -1122444351243223589
+    second: MarimondaAnims4_9
+  - first:
+      213: 4434683962449038186
+    second: MarimondaAnims4_10
+  - first:
+      213: 4390602210870896258
+    second: MarimondaAnims4_11
+  - first:
+      213: 6553461164933439400
+    second: MarimondaAnims4_12
+  - first:
+      213: 1556143542983020801
+    second: MarimondaAnims4_13
+  - first:
+      213: 3708272292714199506
+    second: MarimondaAnims4_14
+  - first:
+      213: 739705923957554309
+    second: MarimondaAnims4_15
+  - first:
+      213: 4106157295797275963
+    second: MarimondaAnims4_16
+  - first:
+      213: -3995303240263381842
+    second: MarimondaAnims4_17
+  - first:
+      213: -7525133726952859903
+    second: MarimondaAnims4_18
+  - first:
+      213: -5068563703482514456
+    second: MarimondaAnims4_19
+  - first:
+      213: 509012784760700918
+    second: MarimondaAnims4_20
+  - first:
+      213: -533921271739019837
+    second: MarimondaAnims4_21
+  - first:
+      213: 418239111487985649
+    second: MarimondaAnims4_22
+  - first:
+      213: -3207000868373675690
+    second: MarimondaAnims4_23
+  - first:
+      213: -3127619323946133887
+    second: MarimondaAnims4_24
+  - first:
+      213: 8090457914223202291
+    second: MarimondaAnims4_25
+  - first:
+      213: -713726817420189074
+    second: MarimondaAnims4_26
+  - first:
+      213: 6838057720094918930
+    second: MarimondaAnims4_27
+  - first:
+      213: -2779507556360038208
+    second: MarimondaAnims4_28
+  - first:
+      213: 5639714580928838414
+    second: MarimondaAnims4_29
+  - first:
+      213: 7660200842323346728
+    second: MarimondaAnims4_30
+  - first:
+      213: -2350213996655502760
+    second: MarimondaAnims4_31
+  - first:
+      213: -5573640498973932315
+    second: MarimondaAnims4_32
+  - first:
+      213: 2931708069452541497
+    second: MarimondaAnims4_33
+  - first:
+      213: -2493994537043981958
+    second: MarimondaAnims4_34
+  - first:
+      213: 6392480782904102747
+    second: MarimondaAnims4_35
+  - first:
+      213: 7697410903876910882
+    second: MarimondaAnims4_36
+  - first:
+      213: -2647095156454672765
+    second: MarimondaAnims4_37
+  - first:
+      213: 1502728934418564180
+    second: MarimondaAnims4_38
+  - first:
+      213: -2098082715745208310
+    second: MarimondaAnims4_39
+  - first:
+      213: -1064005111857573481
+    second: MarimondaAnims4_40
+  - first:
+      213: -6901976050564041960
+    second: MarimondaAnims4_41
+  - first:
+      213: 8710727594401348459
+    second: MarimondaAnims4_42
+  - first:
+      213: 282511223426376000
+    second: MarimondaAnims4_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MarimondaAnims4_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 882
+        width: 170
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02dcb258cb0f4e0b0800000000000000
+      internalID: -5700166535865447136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_1
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 882
+        width: 174
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c507ef5fb6899c0800000000000000
+      internalID: -3920264771346080717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_2
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 880
+        width: 191
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daddb290b5a540160800000000000000
+      internalID: 6990811868628245933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_3
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 880
+        width: 189
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8c31cd8112a5dc0800000000000000
+      internalID: -3649568157375149912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_4
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 875
+        width: 181
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4551d36060f449860800000000000000
+      internalID: 7535734963790746964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_5
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 873
+        width: 176
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88182dd9a793132c0800000000000000
+      internalID: -4453715357696097912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_6
+      rect:
+        serializedVersion: 2
+        x: 1135
+        y: 873
+        width: 181
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa52a5875eafa6cc0800000000000000
+      internalID: -3716882678967294545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_7
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 873
+        width: 189
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d332c90b628193330800000000000000
+      internalID: 3691007924057678653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_8
+      rect:
+        serializedVersion: 2
+        x: 1520
+        y: 873
+        width: 191
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b88bea729c9bc540800000000000000
+      internalID: 5029285561830705334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_9
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 874
+        width: 174
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bddf00c3fc64c60f0800000000000000
+      internalID: -1122444351243223589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 664
+        width: 165
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b85e061992b8d30800000000000000
+      internalID: 4434683962449038186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_11
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 662
+        width: 165
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2862109c27d8eec30800000000000000
+      internalID: 4390602210870896258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_12
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 662
+        width: 165
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8afdc21353292fa50800000000000000
+      internalID: 6553461164933439400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_13
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 663
+        width: 166
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101550bbe48889510800000000000000
+      internalID: 1556143542983020801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_14
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 670
+        width: 167
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d937a1c00e667330800000000000000
+      internalID: 3708272292714199506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_15
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 664
+        width: 191
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58cfdb36e96f34a00800000000000000
+      internalID: 739705923957554309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_16
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 656
+        width: 215
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d00ef1e400cf830800000000000000
+      internalID: 4106157295797275963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_17
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 642
+        width: 162
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eac422afed4dd88c0800000000000000
+      internalID: -3995303240263381842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_18
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 656
+        width: 182
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 107d9a5ceba519790800000000000000
+      internalID: -7525133726952859903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_19
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 681
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e38c748a28d8a9b0800000000000000
+      internalID: -5068563703482514456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_20
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 642
+        width: 154
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff3bcd4e60601700800000000000000
+      internalID: 509012784760700918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_21
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 710
+        width: 44
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd88f3ae612798f0800000000000000
+      internalID: -533921271739019837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_22
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 663
+        width: 44
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f79a678142edc500800000000000000
+      internalID: 418239111487985649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_23
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 497
+        width: 175
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 651c73e93b17e73d0800000000000000
+      internalID: -3207000868373675690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_24
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 494
+        width: 167
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1861b83bbc67894d0800000000000000
+      internalID: -3127619323946133887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_25
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 488
+        width: 165
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ff858f9b94174070800000000000000
+      internalID: 8090457914223202291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_26
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 492
+        width: 169
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e62eff4bd355816f0800000000000000
+      internalID: -713726817420189074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_27
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 497
+        width: 175
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21900ef4449a5ee50800000000000000
+      internalID: 6838057720094918930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_28
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 492
+        width: 171
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c855ac9a943d69d0800000000000000
+      internalID: -2779507556360038208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_29
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 491
+        width: 166
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bbad6e78a444e40800000000000000
+      internalID: 5639714580928838414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_30
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 497
+        width: 165
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 825c4d2a4108e4a60800000000000000
+      internalID: 7660200842323346728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_31
+      rect:
+        serializedVersion: 2
+        x: 1610
+        y: 496
+        width: 172
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85a923f62dc526fd0800000000000000
+      internalID: -2350213996655502760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_32
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 294
+        width: 170
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e48de02f7376a2b0800000000000000
+      internalID: -5573640498973932315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_33
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 297
+        width: 187
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e6dd0d4f48fa820800000000000000
+      internalID: 2931708069452541497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_34
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 297
+        width: 187
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a798abbae2d836dd0800000000000000
+      internalID: -2493994537043981958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_35
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 297
+        width: 175
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f828a3767a6b850800000000000000
+      internalID: 6392480782904102747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_36
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 289
+        width: 171
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22f3dc73f62b2da60800000000000000
+      internalID: 7697410903876910882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_37
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 296
+        width: 197
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386bcd8eaf0a34bd0800000000000000
+      internalID: -2647095156454672765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_38
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 289
+        width: 168
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45448b90104cad410800000000000000
+      internalID: 1502728934418564180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_39
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 53
+        width: 212
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08be9ad2ec12e2e0800000000000000
+      internalID: -2098082715745208310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_40
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 52
+        width: 199
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7919784fcf4eb31f0800000000000000
+      internalID: -1064005111857573481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_41
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 57
+        width: 177
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81370e9a9514730a0800000000000000
+      internalID: -6901976050564041960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_42
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 51
+        width: 191
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b3c7f7898b2e870800000000000000
+      internalID: 8710727594401348459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MarimondaAnims4_43
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 56
+        width: 209
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041e36df57eabe300800000000000000
+      internalID: 282511223426376000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MarimondaAnims4_0: -5700166535865447136
+      MarimondaAnims4_1: -3920264771346080717
+      MarimondaAnims4_10: 4434683962449038186
+      MarimondaAnims4_11: 4390602210870896258
+      MarimondaAnims4_12: 6553461164933439400
+      MarimondaAnims4_13: 1556143542983020801
+      MarimondaAnims4_14: 3708272292714199506
+      MarimondaAnims4_15: 739705923957554309
+      MarimondaAnims4_16: 4106157295797275963
+      MarimondaAnims4_17: -3995303240263381842
+      MarimondaAnims4_18: -7525133726952859903
+      MarimondaAnims4_19: -5068563703482514456
+      MarimondaAnims4_2: 6990811868628245933
+      MarimondaAnims4_20: 509012784760700918
+      MarimondaAnims4_21: -533921271739019837
+      MarimondaAnims4_22: 418239111487985649
+      MarimondaAnims4_23: -3207000868373675690
+      MarimondaAnims4_24: -3127619323946133887
+      MarimondaAnims4_25: 8090457914223202291
+      MarimondaAnims4_26: -713726817420189074
+      MarimondaAnims4_27: 6838057720094918930
+      MarimondaAnims4_28: -2779507556360038208
+      MarimondaAnims4_29: 5639714580928838414
+      MarimondaAnims4_3: -3649568157375149912
+      MarimondaAnims4_30: 7660200842323346728
+      MarimondaAnims4_31: -2350213996655502760
+      MarimondaAnims4_32: -5573640498973932315
+      MarimondaAnims4_33: 2931708069452541497
+      MarimondaAnims4_34: -2493994537043981958
+      MarimondaAnims4_35: 6392480782904102747
+      MarimondaAnims4_36: 7697410903876910882
+      MarimondaAnims4_37: -2647095156454672765
+      MarimondaAnims4_38: 1502728934418564180
+      MarimondaAnims4_39: -2098082715745208310
+      MarimondaAnims4_4: 7535734963790746964
+      MarimondaAnims4_40: -1064005111857573481
+      MarimondaAnims4_41: -6901976050564041960
+      MarimondaAnims4_42: 8710727594401348459
+      MarimondaAnims4_43: 282511223426376000
+      MarimondaAnims4_5: -4453715357696097912
+      MarimondaAnims4_6: -3716882678967294545
+      MarimondaAnims4_7: 3691007924057678653
+      MarimondaAnims4_8: 5029285561830705334
+      MarimondaAnims4_9: -1122444351243223589
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
