@@ -28,7 +28,7 @@ public class PlayerCrouch : MonoBehaviour
         {
             isCrouching = true; // Marca como agachado
             playerController.collPlayer.offset = new Vector2(playerController.collPlayer.offset.x, -0.35f); // Ajusta offset para colisionador pequeño
-            playerController.collPlayer.size = new Vector2(playerController.collPlayer.size.x, 0.80f); // Ajusta tamaño para colisionador pequeño
+            playerController.collPlayer.size = new Vector2(playerController.collPlayer.size.x, 1.02f); // Ajusta tamaño para colisionador pequeño
         }
         else // Si no hay necesidad de agacharse
         {
