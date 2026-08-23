@@ -21,7 +21,7 @@ public class HealthHandler : MonoBehaviour
         }
 
         // Buscamos automáticamente el componente de UI en la escena
-        healthUI = FindFirstObjectByType<HealthUI>();
+        //healthUI = FindFirstObjectByType<HealthUI>();
     }
 
     private void Start()
@@ -49,15 +49,16 @@ public class HealthHandler : MonoBehaviour
 
     private void Die()
     {
-        if(!isPlayer)
+        Time.timeScale = 1f;
+
+        if (!isPlayer)
         {
+             
+            Collider2D col = GetComponent<Collider2D>();
+            if (col != null) col.enabled = false;
+
             Destroy(gameObject);
             return;
-        }
-
-        if (Time.timeScale == 0)
-        {
-            Time.timeScale = 1;
         }
 
         string currentSceneName = SceneManager.GetActiveScene().name;

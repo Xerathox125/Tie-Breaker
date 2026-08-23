@@ -14,8 +14,6 @@ public class EnemyProjectile : MonoBehaviour
 
         if (isPlayer)
         {
-            Debug.Log("¡Detectó al Player!");
-
             // Aplicar daño si tiene el componente Damageable en la jerarquía[cite: 1]
             if (collision.GetComponentInParent<Damageable>() != null)
             {
