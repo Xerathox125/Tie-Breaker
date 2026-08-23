@@ -116,9 +116,10 @@ public class BossController : MonoBehaviour
 
         FollowTarget(targetPoint.position);
         UpdateAnimationState(true);
-
-        if (Vector2.Distance(transform.position, targetPoint.position) < 0.7f)
+ 
+        if (Vector2.Distance(transform.position, targetPoint.position) < 1.7f)
         {
+    
             isWaiting = true;
         }
     }
