@@ -77,8 +77,8 @@ public class PlayerDash : MonoBehaviour
         {
             damageable.TriggerInvulnerability(dashDuration);
         }
-        int enemyLayerIndex = Mathf.RoundToInt(Mathf.Log(enemyLayer.value, 2));
-        Physics2D.IgnoreLayerCollision(playerLayer, enemyLayerIndex, true);
+        //int enemyLayerIndex = Mathf.RoundToInt(Mathf.Log(enemyLayer.value, 2));
+        //Physics2D.IgnoreLayerCollision(playerLayer, enemyLayerIndex, true);
     }
 
     void DashUpdate() // Aplica movimiento constante mientras dura el dash
@@ -94,7 +94,7 @@ public class PlayerDash : MonoBehaviour
         isDash = false; // Desactiva estado
         playerController.rb.gravityScale = playerController.normalGravity; // Restaura gravedad
         playerController.rb.linearVelocity = Vector2.zero; // Detiene movimiento residual
-        int enemyLayerIndex = Mathf.RoundToInt(Mathf.Log(enemyLayer.value, 2));
-        Physics2D.IgnoreLayerCollision(playerLayer, enemyLayerIndex, false);
+        //int enemyLayerIndex = Mathf.RoundToInt(Mathf.Log(enemyLayer.value, 2));
+        //Physics2D.IgnoreLayerCollision(playerLayer, enemyLayerIndex, false);
     }
 }

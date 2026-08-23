@@ -28,7 +28,6 @@ public class HurtBox : MonoBehaviour
 
     private void CheckHurtBox()
     {
-        // SEGURIDAD: Si tiene padre usa la posición del padre, si no, usa su propia posición
         Vector2 originPosition = (transform.parent != null) ? (Vector2)transform.parent.position : (Vector2)transform.position;
         Vector2 center = originPosition + hurtBoxOffSet;
 
@@ -60,7 +59,6 @@ public class HurtBox : MonoBehaviour
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
-        // Hacemos lo mismo en los Gizmos para que la caja roja se dibuje bien en ambos casos
         Vector2 originPosition = (transform.parent != null) ? (Vector2)transform.parent.position : (Vector2)transform.position;
         Vector2 center = originPosition + hurtBoxOffSet;
         Gizmos.DrawWireCube(center, hurtBoxSize);
