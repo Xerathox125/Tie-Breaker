@@ -408702,6 +408702,39 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &254910762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 254910763}
+  m_Layer: 8
+  m_Name: Patrol
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &254910763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254910762}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 1.5, y: 131, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1487715107}
+  - {fileID: 690499853}
+  m_Father: {fileID: 560368603}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &256641648
 GameObject:
   m_ObjectHideFlags: 0
@@ -422860,7 +422893,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 143.82, y: -133.62, z: -10}
+  m_LocalPosition: {x: 86, y: -0.95000076, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -424648,7 +424681,7 @@ Transform:
   m_GameObject: {fileID: 550543003}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 143.82, y: -133.62, z: 0}
+  m_LocalPosition: {x: 86, y: -0.95, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -425386,6 +425419,7 @@ Transform:
   - {fileID: 1670214432}
   - {fileID: 976295514}
   - {fileID: 1194305395}
+  - {fileID: 254910763}
   - {fileID: 809219535}
   m_Father: {fileID: 606343062}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -433320,6 +433354,37 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &690499852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 690499853}
+  m_Layer: 8
+  m_Name: A2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &690499853
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 690499852}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.87, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 254910763}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &693206503
 GameObject:
   m_ObjectHideFlags: 0
@@ -440173,7 +440238,7 @@ GameObject:
   - component: {fileID: 809219541}
   - component: {fileID: 809219540}
   - component: {fileID: 809219539}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Boss Final
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -440340,7 +440405,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e8d23279dab0774fbd7c3169a48201a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BossController
-  patrolPoints: []
+  patrolPoints:
+  - {fileID: 1487715107}
+  - {fileID: 690499853}
   patrolMode: 1
   speed: 2.5
   waitTimeAtPoint: 1
@@ -440348,7 +440415,7 @@ MonoBehaviour:
   boxOffset: {x: 1.68, y: -0.13}
   playerLayer:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   attackCooldown: 2
   projectilePrefab: {fileID: 0}
   firePoint: {fileID: 0}
@@ -450441,7 +450508,7 @@ Transform:
   m_GameObject: {fileID: 989837052}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 65.94001, y: -131.83, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -450460,7 +450527,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HurtBox
   damageEnemy: 1
-  knockBackForce: 17.5
+  knockBackForce: 5
   timeKnockBack: 0.2
   targetLayer:
     serializedVersion: 2
@@ -546000,6 +546067,37 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1487715106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1487715107}
+  m_Layer: 8
+  m_Name: A1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1487715107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1487715106}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.42, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 254910763}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1488117832
 GameObject:
   m_ObjectHideFlags: 0
@@ -572579,7 +572677,7 @@ Transform:
   m_GameObject: {fileID: 1901076165}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 143.82, y: -133.62, z: -10}
+  m_LocalPosition: {x: 86, y: -0.95, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
