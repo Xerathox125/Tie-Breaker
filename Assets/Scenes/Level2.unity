@@ -422860,7 +422860,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45.1, y: -1.3100014, z: -10}
+  m_LocalPosition: {x: 143.82, y: -133.62, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -424648,7 +424648,7 @@ Transform:
   m_GameObject: {fileID: 550543003}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 45.1, y: -1.31, z: 0}
+  m_LocalPosition: {x: 143.82, y: -133.62, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -425379,7 +425379,7 @@ Transform:
   m_GameObject: {fileID: 560368602}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 86.57, y: -133.01, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -572272,7 +572272,7 @@ Transform:
   m_GameObject: {fileID: 1901076165}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 45.1, y: -1.31, z: -10}
+  m_LocalPosition: {x: 143.82, y: -133.62, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -586838,6 +586838,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss Slime
       objectReference: {fileID: 0}
+    - target: {fileID: 7673230448874202812, guid: 32dcb606348d814438470ed9ac48a3e4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8828893376585912870, guid: 32dcb606348d814438470ed9ac48a3e4, type: 3}
       propertyPath: 'patrolPoints.Array.data[0]'
       value: 
@@ -586910,6 +586914,10 @@ PrefabInstance:
     - target: {fileID: 5020833096902246880, guid: a370054260170ec4ea2e4b9496f71546, type: 3}
       propertyPath: m_Name
       value: Boss Skeleton
+      objectReference: {fileID: 0}
+    - target: {fileID: 5020833096902246880, guid: a370054260170ec4ea2e4b9496f71546, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
