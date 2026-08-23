@@ -190,7 +190,7 @@ public class ScenesManager : MonoBehaviour
 
     // Métodos de navegación de escenas
     public void CloseApp() { Application.Quit(); }
-    public void ResumeGame() { }
+    public void ResumeGame() { Time.timeScale = 1; }
     public void PauseGame() { Time.timeScale = 0; }
     public void MainMenu() { SceneManager.LoadScene("MainMenu"); }
     public void LevelSelection() { SceneManager.LoadScene("LevelSelection"); }
