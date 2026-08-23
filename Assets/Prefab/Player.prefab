@@ -238,7 +238,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142472991040556003}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 764083f9a924b3d428aeb1f78404d0ec, type: 3}
   m_Name: 
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142472991040556003}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: abe77ebefba85d24a866f4ca9860be0b, type: 3}
   m_Name: 
@@ -363,15 +363,15 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 142472991040556003}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7eac6435cde2c8f488ef3a80affe29ee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerSkinManager
   spriteRenderer: {fileID: 3406376740779453696}
   skin1Controller: {fileID: 9100000, guid: 31584f90d4f0005499621d1b1eb15c52, type: 2}
-  skin2Controller: {fileID: 22100000, guid: ed983cf5d84e44b428dc1bca64c00a78, type: 2}
-  skin3Controller: {fileID: 22100000, guid: 35b4b0c580e78e54b84c3e8178f8c7c9, type: 2}
+  skin2Controller: {fileID: 9100000, guid: 31584f90d4f0005499621d1b1eb15c52, type: 2}
+  skin3Controller: {fileID: 9100000, guid: 31584f90d4f0005499621d1b1eb15c52, type: 2}
 --- !u!1 &5614496299861567960
 GameObject:
   m_ObjectHideFlags: 0
