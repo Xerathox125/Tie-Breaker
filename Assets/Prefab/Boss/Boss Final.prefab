@@ -345,8 +345,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1012374d04df754894732e05e525e40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HurtBox
-  damageEnemy: 5
-  knockBackForce: 30
+  damageEnemy: 2
+  knockBackForce: 45
   timeKnockBack: 1
   targetLayer:
     serializedVersion: 2

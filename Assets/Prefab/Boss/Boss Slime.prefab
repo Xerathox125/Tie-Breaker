@@ -46,7 +46,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HurtBox
   damageEnemy: 1
   knockBackForce: 17.5
-  timeKnockBack: 0.2
+  timeKnockBack: 1
   targetLayer:
     serializedVersion: 2
     m_Bits: 64

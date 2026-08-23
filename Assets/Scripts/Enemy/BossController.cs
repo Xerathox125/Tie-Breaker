@@ -19,6 +19,9 @@ public class BossController : MonoBehaviour
     [SerializeField] private LayerMask playerLayer;
     [SerializeField] private float attackCooldown = 2f;
 
+    [Header("Player Awareness")]
+    [Tooltip("Distancia a la que el jefe nota al jugador y se voltea a mirarlo si está a su espalda")]
+    [SerializeField] private float awarenessRadius = 5f;
 
     [Header("Shooter Settings")]
     [SerializeField] private GameObject projectilePrefab;
@@ -58,6 +61,8 @@ public class BossController : MonoBehaviour
             return;
         }
 
+        LookAtPlayerIfNearby();
+
         // 2. Si no está atacando, evalúa la presencia del jugador
         bool playerDetected = CheckPlayerInBox();
 
@@ -76,6 +81,30 @@ public class BossController : MonoBehaviour
             PatrolLogic();
         }
     }
+
+    private void LookAtPlayerIfNearby()
+    {
+        // Busca si el jugador está dentro del radio de alerta
+        Collider2D playerHit = Physics2D.OverlapCircle(transform.position, awarenessRadius, playerLayer);
+
+        if (playerHit != null && playerHit.CompareTag("Player"))
+        {
+            float directionToPlayer = playerHit.transform.position.x - transform.position.x;
+
+            // Si hay una diferencia horizontal clara
+            if (Mathf.Abs(directionToPlayer) > 0.1f)
+            {
+                bool isPlayerToLeft = directionToPlayer < 0;
+
+                // Cambia la escala para mirar en la dirección del jugador
+                Vector3 scale = transform.localScale;
+                scale.x = isPlayerToLeft ? -Mathf.Abs(scale.x) : Mathf.Abs(scale.x);
+                transform.localScale = scale;
+            }
+        }
+    }
+
+
     private bool CheckPlayerInBox()
     {
 
@@ -209,9 +238,15 @@ public class BossController : MonoBehaviour
         float facingSign = Mathf.Sign(transform.localScale.x);
         Vector3 boxCenter = transform.position + new Vector3(boxOffset.x * facingSign, boxOffset.y, 0f);
 
+        // Caja de ataque
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireCube(boxCenter, boxSize);
 
+        // Radio de alerta/giro
+        Gizmos.color = Color.magenta;
+        Gizmos.DrawWireSphere(transform.position, awarenessRadius);
+
+        // Puntos de patrulla
         if (patrolPoints != null && patrolPoints.Count > 0)
         {
             Gizmos.color = Color.cyan;
