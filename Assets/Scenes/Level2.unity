@@ -4587,6 +4587,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &66181865
 Rigidbody2D:
   serializedVersion: 5
@@ -391110,6 +391113,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 2
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &317752393
 Rigidbody2D:
   serializedVersion: 5
@@ -393238,6 +393244,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &359197167
 Rigidbody2D:
   serializedVersion: 5
@@ -399039,6 +399048,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &462259391
 Rigidbody2D:
   serializedVersion: 5
@@ -400601,6 +400613,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &491456541
 Rigidbody2D:
   serializedVersion: 5
@@ -402644,6 +402659,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &522119087
 Rigidbody2D:
   serializedVersion: 5
@@ -406069,6 +406087,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!1 &595385748
 GameObject:
   m_ObjectHideFlags: 0
@@ -407446,6 +407467,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &619817012
 Rigidbody2D:
   serializedVersion: 5
@@ -409856,6 +409880,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &654140856
 Rigidbody2D:
   serializedVersion: 5
@@ -426267,6 +426294,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &957074827
 Rigidbody2D:
   serializedVersion: 5
@@ -431739,6 +431769,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &1054833790
 Rigidbody2D:
   serializedVersion: 5
@@ -439528,6 +439561,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &1191125069
 Rigidbody2D:
   serializedVersion: 5
@@ -519119,6 +519155,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &1399203889
 Rigidbody2D:
   serializedVersion: 5
@@ -522572,6 +522611,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &1461763745
 Rigidbody2D:
   serializedVersion: 5
@@ -524109,7 +524151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5341793011887707357, guid: ce3faa8906e1d27478e3bd7594a83734, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -26.39
+      value: -27.12
       objectReference: {fileID: 0}
     - target: {fileID: 5341793011887707357, guid: ce3faa8906e1d27478e3bd7594a83734, type: 3}
       propertyPath: m_LocalPosition.z
@@ -526909,6 +526951,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &1533335316
 Rigidbody2D:
   serializedVersion: 5
@@ -530194,6 +530239,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &1564095386
 Rigidbody2D:
   serializedVersion: 5
@@ -532331,6 +532379,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &1606911451
 Rigidbody2D:
   serializedVersion: 5
@@ -532830,6 +532881,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &1612652948
 Rigidbody2D:
   serializedVersion: 5
@@ -536003,6 +536057,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &1660371071
 Rigidbody2D:
   serializedVersion: 5
@@ -543503,6 +543560,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &1792824194
 Rigidbody2D:
   serializedVersion: 5
@@ -545822,6 +545882,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &1829205852
 Rigidbody2D:
   serializedVersion: 5
@@ -548343,6 +548406,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &1869843540
 Rigidbody2D:
   serializedVersion: 5
@@ -552703,6 +552769,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &1926381611
 Rigidbody2D:
   serializedVersion: 5
@@ -558371,6 +558440,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &2021609077
 Rigidbody2D:
   serializedVersion: 5
@@ -561878,6 +561950,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &2073896590
 Rigidbody2D:
   serializedVersion: 5
@@ -563073,7 +563148,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5341793011887707357, guid: ce3faa8906e1d27478e3bd7594a83734, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.470001
+      value: -11
       objectReference: {fileID: 0}
     - target: {fileID: 5341793011887707357, guid: ce3faa8906e1d27478e3bd7594a83734, type: 3}
       propertyPath: m_LocalPosition.z
@@ -563189,6 +563264,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
   maxHealth: 1000
   currentHealth: 0
+  loadSceneOnDeath: 0
+  sceneToLoad: MainMenu
+  delayBeforeLoad: 3
 --- !u!50 &2095172705
 Rigidbody2D:
   serializedVersion: 5

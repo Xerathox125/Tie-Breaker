@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -8,6 +9,14 @@ public class HealthHandler : MonoBehaviour
 
     private HealthUI healthUI; // Referencia al script de la UI
     private bool isPlayer;
+
+
+    [Header("Transición al morir (Opcional para Jefes)")]
+    [SerializeField] private bool loadSceneOnDeath = false;
+    [SerializeField] private string sceneToLoad = "MainMenu";
+    [SerializeField] private float delayBeforeLoad = 3f;
+
+
 
     private void Awake()
     {
@@ -53,15 +62,39 @@ public class HealthHandler : MonoBehaviour
 
         if (!isPlayer)
         {
-             
+            // Desactivar colliders para evitar más interacciones durante la muerte
             Collider2D col = GetComponent<Collider2D>();
             if (col != null) col.enabled = false;
 
-            Destroy(gameObject);
+            // Si está configurado para cambiar de escena (Caso del Boss)
+            if (loadSceneOnDeath)
+            {
+                // Guarda el progreso completado
+                ScenesManager.MarkLevelCompleted(gameObject.scene.name);
+
+                // Oculta el Sprite pero mantiene el objeto vivo brevemente para ejecutar la corrutina
+                SpriteRenderer sr = GetComponentInChildren<SpriteRenderer>();
+                if (sr != null) sr.enabled = false;
+
+                StartCoroutine(LoadSceneRoutine());
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
             return;
         }
 
+        // Si muere el jugador
         string currentSceneName = SceneManager.GetActiveScene().name;
         SceneManager.LoadScene(currentSceneName);
     }
+
+    private IEnumerator LoadSceneRoutine()
+    {
+        yield return new WaitForSeconds(delayBeforeLoad);
+        SceneManager.LoadScene(sceneToLoad);
+    }
+
+
 }

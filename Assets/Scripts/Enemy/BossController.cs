@@ -27,6 +27,12 @@ public class BossController : MonoBehaviour
     [SerializeField] private GameObject projectilePrefab;
     [SerializeField] private Transform firePoint;
 
+    [Header("Audio Settings")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip walkSound;
+    [SerializeField] private AudioClip attackSound;
+    [SerializeField] private AudioClip HurtSound;
+
 
     private Rigidbody2D rb;
     private Animator animator;
@@ -260,6 +266,30 @@ public class BossController : MonoBehaviour
                     Gizmos.DrawLine(patrolPoints[i].position, patrolPoints[i + 1].position);
                 }
             }
+        }
+    }
+
+    public void PlayWalkSound()
+    {
+        if (audioSource != null && walkSound != null)
+        {
+            audioSource.PlayOneShot(walkSound);
+        }
+    }
+
+    public void PlayAttackSound()
+    {
+        if (audioSource != null && attackSound != null)
+        {
+            audioSource.PlayOneShot(attackSound);
+        }
+    }
+
+    public void PlayHurtSound()
+    {
+        if (audioSource != null && HurtSound != null)
+        {
+            audioSource.PlayOneShot(HurtSound);
         }
     }
 }
