@@ -8718,6 +8718,11 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.0039216, y: 1.0039216}
   m_EdgeRadius: 0
+--- !u!4 &1014608195 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6221813502975623805, guid: 7c6aae5ae3abab94dbeb182b9b799411, type: 3}
+  m_PrefabInstance: {fileID: 1312179014}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1020924795
 GameObject:
   m_ObjectHideFlags: 0
@@ -11887,7 +11892,7 @@ MonoBehaviour:
   m_StreamingVersion: 20241001
   m_LegacyPriority: 0
   Target:
-    TrackingTarget: {fileID: 0}
+    TrackingTarget: {fileID: 1014608195}
     LookAtTarget: {fileID: 0}
     CustomLookAtTarget: 0
   Lens:
@@ -11919,7 +11924,7 @@ Transform:
   m_GameObject: {fileID: 1901076165}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 30.2, y: -23.52, z: -10}
+  m_LocalPosition: {x: 29.02, y: -24.06, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
