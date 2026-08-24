@@ -9850,6 +9850,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 420474448}
     m_Modifications:
     - target: {fileID: 1577750516899851833, guid: 154b12740f22aa342bddab249e4e8d7f, type: 3}
+      propertyPath: sceneToLoad
+      value: LevelSelection
+      objectReference: {fileID: 0}
+    - target: {fileID: 1577750516899851833, guid: 154b12740f22aa342bddab249e4e8d7f, type: 3}
       propertyPath: loadSceneOnDeath
       value: 1
       objectReference: {fileID: 0}
