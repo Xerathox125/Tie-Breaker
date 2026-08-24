@@ -225,7 +225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6132111}
   m_Layer: 0
-  m_Name: Mimic
+  m_Name: Mimics
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -338,14 +338,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 46507413}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 249.7966, y: -0.58741, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 249.95473, y: -0.49317998, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1563335913}
   - {fileID: 731183511}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 606343062}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &49802354
 GameObject:
@@ -252780,11 +252780,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5341793011887707357, guid: ce3faa8906e1d27478e3bd7594a83734, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 152.27
+      value: 147.01
       objectReference: {fileID: 0}
     - target: {fileID: 5341793011887707357, guid: ce3faa8906e1d27478e3bd7594a83734, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 60.61
+      value: 60.4
       objectReference: {fileID: 0}
     - target: {fileID: 5341793011887707357, guid: ce3faa8906e1d27478e3bd7594a83734, type: 3}
       propertyPath: m_LocalPosition.z
@@ -257555,7 +257555,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 140.47, y: 35.73, z: -10}
+  m_LocalPosition: {x: 168.7, y: -3.376171, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -258000,6 +258000,8 @@ Transform:
   - {fileID: 317752390}
   - {fileID: 1767972905}
   - {fileID: 6132111}
+  - {fileID: 46507414}
+  - {fileID: 649718694}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &611715397
@@ -258450,6 +258452,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1440220667}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &649718694 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2993994628335820825, guid: 3cb8ff213d4e4c5488049ba925648ed1, type: 3}
+  m_PrefabInstance: {fileID: 1430244907}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &659473308
 GameObject:
   m_ObjectHideFlags: 0
@@ -262267,7 +262274,7 @@ Transform:
   m_GameObject: {fileID: 1053038157}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 200.19, y: 59.350002, z: 0}
+  m_LocalPosition: {x: 232.58, y: 44.75, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -262332,7 +262339,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 698c3d0ec12478648b8a3fc190e0b6c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
-  maxHealth: 5
+  maxHealth: 3
   currentHealth: 0
 --- !u!50 &1053038162
 Rigidbody2D:
@@ -264798,7 +264805,7 @@ Transform:
   m_GameObject: {fileID: 1248053761}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 250.45001, y: 51.420002, z: 0}
+  m_LocalPosition: {x: -8.4, y: 4.8, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -264863,7 +264870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 698c3d0ec12478648b8a3fc190e0b6c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
-  maxHealth: 5
+  maxHealth: 3
   currentHealth: 0
 --- !u!50 &1248053766
 Rigidbody2D:
@@ -266946,7 +266953,7 @@ Transform:
   m_GameObject: {fileID: 1399713681}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 237.67001, y: 59.350002, z: 0}
+  m_LocalPosition: {x: 65.3, y: 18.9, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -267011,7 +267018,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 698c3d0ec12478648b8a3fc190e0b6c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
-  maxHealth: 5
+  maxHealth: 3
   currentHealth: 0
 --- !u!50 &1399713686
 Rigidbody2D:
@@ -267321,7 +267328,7 @@ Transform:
   m_GameObject: {fileID: 1429759854}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 249.62, y: 59.350002, z: 0}
+  m_LocalPosition: {x: 39.1, y: 43.8, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -267386,7 +267393,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 698c3d0ec12478648b8a3fc190e0b6c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
-  maxHealth: 5
+  maxHealth: 3
   currentHealth: 0
 --- !u!50 &1429759859
 Rigidbody2D:
@@ -267548,15 +267555,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 606343062}
     m_Modifications:
     - target: {fileID: 2993994628335820825, guid: 3cb8ff213d4e4c5488049ba925648ed1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 209.20561
+      value: 209.36374
       objectReference: {fileID: 0}
     - target: {fileID: 2993994628335820825, guid: 3cb8ff213d4e4c5488049ba925648ed1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.861054
+      value: 5.955284
       objectReference: {fileID: 0}
     - target: {fileID: 2993994628335820825, guid: 3cb8ff213d4e4c5488049ba925648ed1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -269386,7 +269393,7 @@ Transform:
   m_GameObject: {fileID: 1754978220}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 218.03, y: 59.350002, z: 0}
+  m_LocalPosition: {x: 49.67, y: -8.71, z: 0}
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -269451,7 +269458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 698c3d0ec12478648b8a3fc190e0b6c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthHandler
-  maxHealth: 5
+  maxHealth: 3
   currentHealth: 0
 --- !u!50 &1754978225
 Rigidbody2D:
@@ -270644,7 +270651,7 @@ Transform:
   m_GameObject: {fileID: 1901076165}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 140.47, y: 35.73, z: -10}
+  m_LocalPosition: {x: 168.7, y: -5.4, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -274423,7 +274430,7 @@ Transform:
   m_GameObject: {fileID: 240407589117435691}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 140.47, y: 35.73, z: 0}
+  m_LocalPosition: {x: 168.7, y: -5.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -274816,6 +274823,4 @@ SceneRoots:
   - {fileID: 782906960065262868}
   - {fileID: 2866250398600589925}
   - {fileID: 1548723147}
-  - {fileID: 46507414}
   - {fileID: 908060943}
-  - {fileID: 1430244907}
